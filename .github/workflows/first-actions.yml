@@ -31,5 +31,6 @@ jobs:
 
     - name: Execute Program
       run: |
+        cd src
         python addition.py 5 7
 

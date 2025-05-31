@@ -28,3 +28,8 @@ jobs:
       run: |
         cd src
         python -m pytest addition.py
+
+    - name: Execute Program
+      run: |
+        python addition.py 5 7
+
